@@ -1,0 +1,421 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html {
+    overflow-x: hidden;
+    width: 1239px;
+}
+
+.navbar {
+    position:fixed;
+    display: flex;
+    width: 1239px;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #fff;
+    /* box-shadow: 0 2px 4px rgba(0,0,0,0.1); */
+    height: 56px;
+    align-items: center;
+    font-family: sans-serif;
+    z-index: 1;
+}
+.navbar .logo{
+    margin-left: 120px;
+    color: #ad9757;
+    font-family: sans-serif;
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+    margin-right:60px;
+    list-style: none;
+    padding: 0;
+    font-family: sans-serif;
+}
+.navbar ul li {
+    padding: 0 29px;
+    font-family: sans-serif;
+}
+.navbar a {
+    text-decoration: none;
+    color: #2e2d05;
+    display: flex;
+    /* top: 2000px; */
+    transition: color 0.3s ease;
+    font-family: sans-serif;
+    /* font-weight: bold; */
+}
+
+.navbar ul li a:hover {
+    color: #8c6d20;
+}
+/* .navbar ul li a:visited {
+    color: #2e2d05;
+} */
+
+.header {
+    color: darkblue;
+    margin-top: 20px;
+    margin-left: 12.3em;
+    margin-bottom: 20px;
+    width: 200px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.banner {
+    background-attachment: fixed;
+    background-image: url('image3.png');
+    width: 1239px;
+    /* top: 0;
+    left: 0; */
+    height: 960px;
+    padding-top: 10px;
+    z-index: -1;
+    background-position-y: -150px;
+    /* background-position: 40px -5px; */
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    /* margin-left: 70px; */
+}
+
+.banner-text {
+    position: relative;
+    top: 920px;
+    left: 600px;
+    transform: translate(-620px, -620px);
+    color: #fff;
+    text-align: center;
+    line-height: 90px;
+    font-family: "EB Garamond", Serif;
+    letter-spacing: 15px;
+    /* font-weight: lighter; */
+    /* margin-top: 480; */
+}
+
+.banner-text p {
+    font-size: 60px;
+    margin: 0;
+}
+
+.container {
+    background-attachment: fixed;
+    container: fixed;
+    width: 2000px; 
+    left: 0;
+    padding: 60px;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    display: flex; 
+    height: 600px;
+    margin:  auto;
+    background-size: cover;
+}
+
+.left-panel {
+    background-image: url('flower.png'); 
+    container: fixed;
+    width: 345px; 
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 50px;
+    /* text-align: center; */
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    margin-right: 70px;
+    margin-left: 17px;
+    text-align: center;
+    height: 558px;
+    margin-top: 14px;
+}
+
+.right-panel {
+    width: 814px; 
+    background-image: url('image1.png'); 
+    background-size: cover;
+    background-position: center;
+    height: 558px;
+    margin-left: 5px;
+    margin-right: 890px;
+    margin-top: 14px;
+
+}
+
+#left-panel-s  {
+    font-size: 30px; 
+    margin-bottom: 120px;
+    color: #fff;
+    font-family: "Helvetica", sans-serif;
+    margin-left: 30px;
+    letter-spacing: 12px;
+}
+
+.left-panel-lp p {
+    font-size: 22px; 
+    margin-bottom: 70px;
+    color: #fff;
+    font-family: "EB Garamond", Serif;
+    margin-left:35px;
+    letter-spacing: 1.5px;
+    line-height: 35px;
+}
+
+.button {
+    display: inline-block;
+    padding: 12px 80px;
+    border: 1px solid #fff; 
+    text-decoration: none;
+    color: #fff; 
+    /* font-weight: bold; */
+    text-transform: uppercase;
+    margin-left: 30px;
+    font-family: sans-serif;
+    font-size: 15px;
+
+}
+
+.container3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center;
+    text-align: center; */
+    padding: 0px;
+    height: 380px;
+    margin-top: 10px;
+    padding-bottom: 140px;
+    padding-top: 60px;
+  }
+  
+.container4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 1239px;
+  }
+  
+.leftarrow{
+    cursor: pointer;
+    padding-left: 100px;
+    font-size: 30px;
+}
+
+.rightarrow{
+    cursor: pointer;
+    padding-left: 100px;
+    font-size: 30px;
+}
+  
+  
+.con3p2 {
+    padding: 0 20px; 
+  }
+  
+
+
+.con3p1 {
+    font-size: 42px;
+    /* font-style: italic; */
+    text-align: center;
+    margin-top: 20px;
+}
+
+.con3p2 {
+    font-size: 40px;
+    /* font-style: italic; */
+    top: 20px;
+    text-align: center;
+    width: 1239px;
+    font-family: "EB Garamond", Serif;
+    letter-spacing: 3px;
+    height: 200px;
+    padding-top: 15px;
+}
+
+.rightarrow {
+    font-size: 30px;
+    cursor: pointer;
+    padding-right: 100px;
+}
+
+.leftarrow {
+    font-size: 30px;
+    cursor: pointer;
+    padding-left: 100px;
+}
+
+.con3p3 {
+    margin-top: 12px;
+    font-size: 18px;
+    font-style: normal;
+    color: #af9453;
+}
+
+.tab {
+    background-attachment: fixed;
+    background-image: url('image2.png');
+    width: 1239px;
+    height: 655px;
+    padding-top: 20px;
+    z-index: -1;
+    background-repeat: no-repeat;
+    /* padding: 20px; */
+    margin-left: 75px;
+    background-size: 1170px;
+    /* margin-right: 10px; */
+}
+
+.flower2{
+    background-image: url('flower.png'); 
+    container: fixed;
+    width: 290px; 
+    padding: 0px;
+    padding-left: 30px;
+    padding-right: 50px;
+    /* text-align: center; */
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    margin-right: 10px;
+    margin-left: 700px;
+    margin-top: 60px;
+    text-align: center;
+    height: 515px;
+    padding-bottom: 80px;
+}
+
+#flower2-g {
+    font-size: 30px; 
+    /* margin-bottom: 70px; */
+    color: #fff;
+    font-family: "Helvetica", sans-serif;
+    font-size: 30px;
+    margin-left: 20px;
+    letter-spacing: 10px;
+    margin-top: 100px;
+}
+
+.flower2-um {
+    font-size: 22px; 
+    margin-bottom: 50px;
+    color: #fff;
+    font-family: "EB Garamond", Serif;
+    letter-spacing: 6px;
+    margin-top: 100px;
+    line-height: 45px;
+
+}
+
+.buttoncon {
+    display: inline-block;
+    padding: 15px 20px;
+    border: 1px solid #fff; 
+    text-decoration: none;
+    color: #fff; 
+    /* font-weight: bold; */
+    text-transform: uppercase;
+    font-family: sans-serif;
+
+
+}
+
+.footer{
+    display: flex;
+    align-items:center;
+    width: 1090px;
+    height: 172px;
+    padding-top: 10px;
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-color: #af9453;
+    margin-top:125px;
+    margin-left: 75px;
+    margin-right: 0px;
+    padding-bottom: 30px;
+    margin-bottom: 35px;
+    /* margin-bottom: 40px; */
+}
+
+.contact-info {
+    display: flex;
+    gap: 30px;
+    margin-left: 90px;
+    font-family: sans-serif;
+}
+
+.contact-details {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 1px;
+    /* font-weight: bold; */
+    margin-top: 6px;
+}
+.address{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    color: #fff;
+    font-size: 16px;
+    width: 130px;
+    margin-top: 6px;
+    /* font-weight: bold; */
+}
+
+.copyright {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    color: #fff;
+    margin-top: 6px;
+    font-size: 16px;
+}
+.buttonfooter {
+    padding: 10px 2px;
+    border: 1px solid #fff;
+    background: none;
+    color: #fff;
+    /* font-weight: bold; */
+    cursor: pointer;
+    height: 45px;
+    margin-top: 40px;
+    margin-left: 80px;
+    width: 220px;
+    font-family: sans-serif;
+    font-size: 15px;
+    margin-right: 70px;
+}
+
+#v_bar1 {
+    height: 60px;
+    width: 1px;
+    background-color: #ffffff;
+    margin-top:10px;
+    margin-bottom: 30px;
+    color: #ffffff;
+    margin-left: 10px;
+
+}
+
+#v_bar2 {
+    height: 60px;
+    width: 1px;
+    background-color: #ffffff;
+    margin-top:10px;
+    margin-bottom: 30px;
+    color: #ffffff;
+    margin-left: -10px;
+
+}
